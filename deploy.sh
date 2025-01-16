@@ -8,6 +8,6 @@ docker stop finance-app || true
 docker rm finance-app || true
 
 # Run the new container
-docker run -d --name finance-app -p 8080:8080 finance-app
+docker run -d --name finance-app -p 8081:8080 finance-app
 
 echo "Finance app deployed successfully!"
